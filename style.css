@@ -1,0 +1,85 @@
+
+#carrito{
+    max-width: 50px;
+    max-height: 50px ;
+    text-align: right
+}
+
+#brand{
+    font-family: 'Satisfy', cursive;
+    color: black;
+    font-size: 50px;
+    margin-right: 100px;
+}
+
+#navBar{
+    text-align: right;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.right-alignment{
+    text-align:  right;
+}
+
+.regularText{
+    font-family: 'Roboto Slab', serif;
+    font-size : 20px;
+    margin: 10px;
+}
+
+.listText{
+    font-family: 'Roboto Slab', serif;
+    font-size : 15px;
+    margin: 5px;
+}
+
+.header{
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+    color : #9521D4;
+    margin: 20px;
+}
+
+section > div > p {
+    margin: 30px;
+    display: inline-block;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.wordsNav{
+    animation-name: itemsNav;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+.interestsPhoto{
+    display:block;
+    margin:auto;
+    box-shadow: 0 4px 8px 0  #9521D4, 0 6px 20px 0  #9521D4;
+    height: 50%;
+    width: 50%;
+}
+
+.experiencePhoto{
+    display:block;
+    margin:auto;
+    max-width: 150px;
+    max-height: 150px ;
+}
+
+.flex-container {
+    margin: 10px;
+    display: flex;
+}
