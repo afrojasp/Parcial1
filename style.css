@@ -16,6 +16,17 @@
     text-align: right;
 }
 
+.itemComida{
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
 .center{
     display: block;
     margin-left: auto;
@@ -23,26 +34,38 @@
     width: 100%;
 }
 
-.right-alignment{
-    text-align:  right;
-}
-
-.regularText{
-    font-family: 'Roboto Slab', serif;
-    font-size : 20px;
-    margin: 10px;
-}
-
-.listText{
-    font-family: 'Roboto Slab', serif;
-    font-size : 15px;
+.productoOfertado{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #EDEDED;
+    padding: 20px;
     margin: 5px;
 }
 
+.imagenProductoOfertado{
+    display:block;
+    margin:auto;
+    height: auto;
+    width: 100%;
+}
+
+.negrilla{
+    font-weight: bold;
+}
+
+.right-alignmentCancel{
+    position: absolute;
+    right: 0px;
+}
+
+.right-alignmentConfirm{
+    position: absolute;
+    right: 80px;
+}
+
 .header{
-    font-family: 'Zilla Slab', serif;
     text-align: center;
-    color : #9521D4;
+    color :black;
     margin: 20px;
 }
 
@@ -55,31 +78,4 @@ section > div > p {
 
 .inline{
     display: inline-block;
-}
-
-.wordsNav{
-    animation-name: itemsNav;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-}
-
-
-.interestsPhoto{
-    display:block;
-    margin:auto;
-    box-shadow: 0 4px 8px 0  #9521D4, 0 6px 20px 0  #9521D4;
-    height: 50%;
-    width: 50%;
-}
-
-.experiencePhoto{
-    display:block;
-    margin:auto;
-    max-width: 150px;
-    max-height: 150px ;
-}
-
-.flex-container {
-    margin: 10px;
-    display: flex;
 }
